@@ -1,8 +1,9 @@
 import {View, StyleSheet} from 'react-native';
 import React from 'react';
-/*import CurrentWeather from './src/components/CurrentWeather.tsx';
-import UpcomingWeather from './src/components/UpcomingWeather.tsx';*/
-import OurChild from './src/components/OurChild.tsx';
+import CurrentWeather from './src/screens/CurrentWeather.tsx';
+import UpcomingWeather from './src/screens/UpcomingWeather.js';
+import OurChild from './src/screens/OurChild.tsx';
+import City from "./src/screens/City";
 
 const app = () => {
   return (
@@ -10,13 +11,16 @@ const app = () => {
 {/*
       <CurrentWeather />
 */}
+
 {/*
       <UpcomingWeather />
 */}
-      <OurChild message="Hello from parent" />
-      <OurChild message="Hello again from parent" />
-      <OurChild message="Hello again again from parent" />
 
+{/*      <OurChild message="Hello from parent" />
+      <OurChild message="Hello again from parent" />
+      <OurChild message="Hello again again from parent" />*/}
+
+      <City />
     </View>
   );
 };

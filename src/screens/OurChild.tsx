@@ -11,11 +11,10 @@ import {View, Text, SafeAreaView, StyleSheet} from 'react-native';
 const OurChild = (props) => {
   const {message} = props;
   return (
-    <SafeAreaView style={{height:200, width:200, backgroundColor:'red'}}>
+    <SafeAreaView style={{height: 200, width: 200, backgroundColor: 'red'}}>
       <Text>{message}</Text>
     </SafeAreaView>
   );
 };
-
 
 export default OurChild;
