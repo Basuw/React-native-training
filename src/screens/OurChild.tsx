@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import {View, Text, SafeAreaView, StyleSheet} from 'react-native';
+import {Text, SafeAreaView} from 'react-native';
 
 const OurChild = (props) => {
   const {message} = props;
